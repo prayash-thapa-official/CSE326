@@ -1,0 +1,77 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Bokor&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* font-family: "Moderustic", sans-serif;    */
+  background-color: black;  
+  font-family: "Bokor", system-ui;   
+}
+.navbar{
+    
+    border-radius: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.navbar ul a{
+    padding: 30px;
+    margin-left: 60px;
+    
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar img{
+    margin-right: auto;
+    width: 45px; 
+}
+.navbar ul{
+    display: flex;
+}
+.section1{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 450px;
+    align-items: center;
+    margin-top: 50px;
+}
+.section1 img{
+    height: 540px;
+    width: 540px;
+    margin: 20px;
+   
+}
+.navbar a:hover{
+    color: aqua;
+}
+.section1 h1{
+    
+    font-size: 90px;
+    margin-bottom: 0px;
+    margin-left: 200px;
+    
+}
+.section1 span{
+    color: aqua;
+}
+#videoeditor{
+    margin-left: 250px;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.desc p{
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-right: 300px;
+    text-align: center;
+   
+}
